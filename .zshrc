@@ -7,7 +7,7 @@ export CLICOLOR_FORCE=1
 unsetopt nomatch
 
 # Enable plugins.
-plugins=(git brew history history-substring-search)
+plugins=(aws git github brew history npm warhol osx)
 
 # Custom $PATH with extra locations.
 export PATH=/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/git/bin:$PATH
