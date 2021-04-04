@@ -1,3 +1,6 @@
+# environment variables
+source ~/.zshrc_user
+
 # Colors.
 unset LSCOLORS
 export CLICOLOR=1
