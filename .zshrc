@@ -1,5 +1,8 @@
-# environment variables
-source ~/.zshrc_user
+# User file
+FILE=~/.zshrc_user
+if [[ -f "$FILE" ]]; then
+  source $FILE
+fi
 
 # Colors.
 unset LSCOLORS
