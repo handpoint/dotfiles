@@ -12,7 +12,10 @@ export CLICOLOR_FORCE=1
 unsetopt nomatch
 
 # Enable plugins.
-plugins=(aws git github brew history npm warhol osx)
+plugins=(aws git github brew history npm osx)
+
+# JAVA HOME
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/current
 
 # Custom $PATH with extra locations.
 export PATH=/usr/local/bin:/usr/local/sbin:$HOME/bin:/usr/local/git/bin:$PATH
@@ -31,4 +34,3 @@ if [ -f ~/.aliases ]
 then
   source ~/.aliases
 fi
-
